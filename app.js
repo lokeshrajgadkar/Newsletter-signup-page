@@ -4,7 +4,7 @@
     const bodyParser = require("body-parser");
     const app = express();
 
-    //Using bodyparser
+    //Using body-parser
     app.use(bodyParser.urlencoded({extended:true}));
     //The public folder which holds the CSS
     app.use(express.static("public"));
